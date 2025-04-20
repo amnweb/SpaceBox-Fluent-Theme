@@ -1,0 +1,51 @@
+{
+	"name": "spacebox-fluent-theme",
+	"displayName": "SpaceBox Fluent Theme",
+	"description": "A sleek, professional dark theme for VS Code with custom icons and fluent colors. Inspired by Windows 11 and GitHub's dark mode, it offers a modern look for developers. Perfect for those who love a clean and stylish coding environment.",
+	"publisher": "SpaceBox",
+	"license": "MIT",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"dark theme",
+		"purple",
+		"blue",
+		"dark",
+		"github",
+		"spacebox",
+		"fluent",
+		"windows 11"
+	],
+	"galleryBanner": {
+		"color": "#0d1116",
+		"theme": "dark"
+	},
+	"icon": "images/icon.png",
+	"pricing": "Free",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amnweb/SpaceBox-Fluent-Theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "SpaceBox Fluent (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/SpaceBox-fluent-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "spacebox.file-icon-theme",
+				"label": "SpaceBox File Icon",
+				"path": "./icons/SpaceBox-icon-theme.json"
+			}
+		]
+	}
+}
