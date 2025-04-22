@@ -4,7 +4,7 @@
 	"description": "A sleek, professional dark theme for VS Code with custom icons and fluent colors. Inspired by Windows 11 and GitHub's dark mode, it offers a modern look for developers. Perfect for those who love a clean and stylish coding environment.",
 	"publisher": "SpaceBox",
 	"license": "MIT",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "*"
 	},
